@@ -6,7 +6,7 @@ function AdditionalDetails() {
             <h2>Details</h2>
             <p>
                 <strong>Dress for the Weather: </strong>
-                Comfortable shoes, sunscreen, and water are recommended. Depending on the season, the street temperatures can be very hot or very chilly; appropriate attire for temperature is suggested. Consult your tour guide for details on the weather forecast of ever-changing weather.
+                Comfortable shoes, sunscreen, and drinking water are recommended. Depending on the season, the street temperatures can be very hot or very chilly; appropriate attire for temperature is suggested. Consult your tour guide for details on the weather forecast of ever-changing weather.
             </p>
 
             <p>
