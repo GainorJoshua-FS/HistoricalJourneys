@@ -23,7 +23,7 @@ function TheGuides() {
                     />
                 </div>
                 <p>
-                    <strong>Bruce Kottke:</strong> Bruce has been involved with living history over 40 years. Most recent accomplishments has been a town guide, museum curator, former board member of the Gettysburg Battlefield Preservation Association, member of the Adams County Historical Society. Past accomplishments include the creator, organizer, and implementor of an event called “Civil War Weekend at the Heritage Hills State Park” in Green Bay Wisconsin. Bruce is a historian, living history reenactor and public speaker.
+                    <strong>Bruce Kottke:</strong> Bruce has been involved with living history over 40 years. Most recent accomplishments have been a town guide, museum curator, former board member of the Gettysburg Battlefield Preservation Association, member of the Adams County Historical Society. Past accomplishments include the creator, organizer, and implementor of an event called “Civil War Weekend at the Heritage Hills State Park” in Green Bay Wisconsin. Bruce is a historian, living history reenactor and public speaker.
                 </p>
 
                 <div style={styles.imgDiv}>
