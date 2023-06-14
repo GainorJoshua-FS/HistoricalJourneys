@@ -4,7 +4,7 @@ function AlertBanner() {
     return (
         <div style={styles.div}>
             <p style={styles.inner}>
-                Historical Journeys is one year old! The business is new, yet our historians/town guides have decades of experience.
+                Welcome to Historical Journeys! Combined, our historical research team had decades of experience studying and educating our American heritage.
             </p>
         </div>
     )
