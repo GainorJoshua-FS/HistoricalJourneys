@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { HashRouter, Routes, Route } from 'react-router-dom'
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -7,9 +6,8 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import TheGuides from './components/TheGuides';
 import Tours from './components/Tours';
-import AdditionalDetails from './components/AdditionalDetails';
-import ImgSlider from './helpers/ImgSlider';
 import AlertBanner from './components/AlertBanner';
+import Camping from './components/Camping';
 
 function App() {
   return (
@@ -21,10 +19,8 @@ function App() {
               <Route key="home" path='/' element={<AboutUs/>} />
               <Route key="guides" path='/guides' element={<TheGuides/>} />
               <Route key="tours" path='/tours' element={<Tours/>} />
-              {/* <Route key="detauls" path='/details' element={<AdditionalDetails/>} /> */}
-
+              <Route key="camping" path='/camping' element={<Camping/>} />
             </Routes>
-        {/* <AboutUs /> */}
         <Footer />
         </HashRouter>
     </main>
