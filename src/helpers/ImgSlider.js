@@ -41,7 +41,8 @@ const ImgSlider = () => {
     const [imgAlts, setimgAlts] = React.useState(alts)
     const [currentImage, setCurrentImage] = React.useState(0)
     const [imagesLength, setImagesLength] = React.useState(urls.length)
-    
+    // let myInterval = 3000;
+
     const clickLeft = () => {
         if (currentImage === 0) {
             setCurrentImage(imagesLength - 1)
@@ -49,7 +50,7 @@ const ImgSlider = () => {
             setCurrentImage(currentImage - 1)
         }
     }
-    
+
     const clickRight = () => {
         if (currentImage === imagesLength - 1) {
             setCurrentImage(0)
@@ -58,6 +59,10 @@ const ImgSlider = () => {
         }
     }
 
+
+    // let threeSeconds = setInterval(function() {
+    //             clickRight()
+    //         }, myInterval);
 
         return (
             <div style={styles.div}>
