@@ -5,7 +5,7 @@ import AdditionalDetails from './AdditionalDetails';
 function Tours() {
     return (
         <section>
-            <h2>Four Walking Tours</h2>
+            <h2>Walking Tours</h2>
 
             <TourHelper
                 tour="Not the Same Old Town Tour"
@@ -42,13 +42,6 @@ function Tours() {
 
                     <dt><strong>Children (5 & younger)</strong></dt>
                     <dd>FREE</dd>
-                </dl>
-            </article>
-
-            <article>
-                <h2>School Groups & Scout Group Pricings</h2>
-                <dl>
-                    <p>Contact us for customized pricing to meet your group needs.</p>
                 </dl>
             </article>
             <AdditionalDetails/>
