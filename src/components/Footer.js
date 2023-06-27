@@ -70,11 +70,13 @@ const styles = {
             height: "30px"
     },
     logoLink:{
-        float: "right",
         textDecoration: "none",
         borderBottom: "3px solid #BF0A30",
         color: "white",
+        float: "right",
         marginRight: "15px",
-        fontSize: "12px"
+        fontSize: "12px",
+        marginTop: "-30px",
+        marginBottom: "none"
     }
 }
