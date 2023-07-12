@@ -8,6 +8,7 @@ import TheGuides from './components/TheGuides';
 import Tours from './components/Tours';
 import AlertBanner from './components/AlertBanner';
 import Camping from './components/Camping';
+import FieldTrips from './components/FieldTrips';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Route key="guides" path='/guides' element={<TheGuides/>} />
               <Route key="tours" path='/tours' element={<Tours/>} />
               <Route key="camping" path='/camping' element={<Camping/>} />
+              <Route key="field-trips" path='/field-trips' element={<FieldTrips/>} />
             </Routes>
         <Footer />
         </HashRouter>
