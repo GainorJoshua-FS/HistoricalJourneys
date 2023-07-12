@@ -1,9 +1,19 @@
 import React from 'react'
+import SideBySide from '../helpers/SideBySide';
+
+import img9 from '../images/JacobStockHouse.jpg'
+import img9new from '../images/StockHome9.jpg'
 
 function AdditionalDetails() {
     return (
         <div>
             <h2>Details</h2>
+            <SideBySide
+                src1={img9}
+                alt1="Jacob Stock House 1863"
+                src2={img9new}
+                alt2="Jacob Stock House 2023"
+            />
             <p>
                 <strong>Dress for the Weather: </strong>
                 Comfortable shoes, sunscreen, and drinking water are recommended. Depending on the season, the street temperatures can be very hot or very chilly; appropriate attire for temperature is suggested. Consult your tour guide for details on the weather forecast of ever-changing weather.

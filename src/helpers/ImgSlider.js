@@ -18,10 +18,8 @@ const ImgSlider = () => {
         img4,
         img5,
         img6,
-        img7,
         img8,
         img9,
-        img10,
     ]
 
     const alts =[
@@ -31,17 +29,18 @@ const ImgSlider = () => {
         "Gettysburg John Burns House",
         "Gettysburg South Baltimore Street Images",
         "Gettysburg Street Scene",
-        "Gettysburg Sweeney Tavern",
+        // "Gettysburg Sweeney Tavern",
         "Gettysburg Will House",
         "Jacob Stock House",
-        "Wagon House",
+        // "Wagon House",
     ]
 
     const [images, setImages] = React.useState(urls)
     const [imgAlts, setimgAlts] = React.useState(alts)
     const [currentImage, setCurrentImage] = React.useState(0)
     const [imagesLength, setImagesLength] = React.useState(urls.length)
-    
+    // let myInterval = 3000;
+
     const clickLeft = () => {
         if (currentImage === 0) {
             setCurrentImage(imagesLength - 1)
@@ -49,7 +48,7 @@ const ImgSlider = () => {
             setCurrentImage(currentImage - 1)
         }
     }
-    
+
     const clickRight = () => {
         if (currentImage === imagesLength - 1) {
             setCurrentImage(0)
@@ -58,6 +57,10 @@ const ImgSlider = () => {
         }
     }
 
+
+    // let threeSeconds = setInterval(function() {
+    //             clickRight()
+    //         }, myInterval);
 
         return (
             <div style={styles.div}>
@@ -69,15 +72,15 @@ const ImgSlider = () => {
                     {/* Checking to see if it's the first one */}
                     {
                     (currentImage - 1 === -1)
-                    ? <button style={styles.btn} onClick={clickLeft} > <img style={styles.btnImg} src={images[9]} alt={imgAlts[9]} /> <strong style={styles.strong}>{'<'}</strong> </button>
+                    ? <button style={styles.btn} onClick={clickLeft} > <img style={styles.btnImg} src={images[7]} alt={imgAlts[7]} /> <strong style={styles.strong}>{'<'}</strong> </button>
                     : <button style={styles.btn} onClick={clickLeft}> <img style={styles.btnImg} src={images[currentImage - 1]} alt={imgAlts[currentImage - 1]} /> <strong style={styles.strong}>{'<'}</strong> </button>
                     }
 
-                    <p style={styles.count}>{currentImage + 1}/10</p>
+                    <p style={styles.count}>{currentImage + 1}/8</p>
 
                     {/* Checking to see if it's the last one */}
                     {
-                    (currentImage + 1 === 10)
+                    (currentImage + 1 === 8)
                     ? <button style={styles.btn} onClick={clickRight} > <img style={styles.btnImg} src={images[0]} alt={imgAlts[0]} /> <strong style={styles.strong}>{'>'}</strong> </button>
                     : <button style={styles.btn} onClick={clickRight}> <img style={styles.btnImg} src={images[currentImage + 1]} alt={imgAlts[currentImage + 1]} /> <strong style={styles.strong}>{'>'}</strong> </button>
                     }
@@ -103,7 +106,7 @@ const styles = {
         maxWidth: "400px",
         maxHeight: "500px",
         marginTop: "20px",
-        marginRight: "20%"
+        marginRight: "10%"
         // display: "flex",
         // justifyContent: "center",
         // alignItems: "center",

@@ -1,11 +1,23 @@
 import React from 'react'
+import SideBySide from '../helpers/SideBySide';
 import TourHelper from '../helpers/TourHelper'
 import AdditionalDetails from './AdditionalDetails';
 
+import img4 from '../images/GettysburgJohnBurnsHouse.jpg'
+import img4new from '../images/NewHome4.jpg'
+import img5 from '../images/GettysburgSouthBaltimoreStImages.jpg'
+import img5new from '../images/StreetScene5.jpg'
 function Tours() {
     return (
         <section>
-            <h2>Four Walking Tours</h2>
+            <h2>Walking Tours</h2>
+
+            <SideBySide
+                src1={img4}
+                alt1="Gettysburg John Burns House 1863"
+                src2={img4new}
+                alt2="Gettysburg John Burns House 2023"
+            />
 
             <TourHelper
                 tour="Not the Same Old Town Tour"
@@ -33,6 +45,12 @@ function Tours() {
 
             <article>
                 <h2>Private Tour Pricings</h2>
+                <SideBySide
+                    src1={img5}
+                    alt1="Gettysburg South Baltimore St Images 1863"
+                    src2={img5new}
+                    alt2="Gettysburg South Baltimore St Images 2023"
+                />
                 <dl>
                     <dt><strong>Adults</strong></dt>
                     <dd>$20</dd>
@@ -42,13 +60,6 @@ function Tours() {
 
                     <dt><strong>Children (5 & younger)</strong></dt>
                     <dd>FREE</dd>
-                </dl>
-            </article>
-
-            <article>
-                <h2>School Groups & Scout Group Pricings</h2>
-                <dl>
-                    <p>Contact us for customized pricing to meet your group needs.</p>
                 </dl>
             </article>
             <AdditionalDetails/>
