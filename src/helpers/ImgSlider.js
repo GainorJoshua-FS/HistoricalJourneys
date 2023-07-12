@@ -18,10 +18,8 @@ const ImgSlider = () => {
         img4,
         img5,
         img6,
-        img7,
         img8,
         img9,
-        img10,
     ]
 
     const alts =[
@@ -31,10 +29,10 @@ const ImgSlider = () => {
         "Gettysburg John Burns House",
         "Gettysburg South Baltimore Street Images",
         "Gettysburg Street Scene",
-        "Gettysburg Sweeney Tavern",
+        // "Gettysburg Sweeney Tavern",
         "Gettysburg Will House",
         "Jacob Stock House",
-        "Wagon House",
+        // "Wagon House",
     ]
 
     const [images, setImages] = React.useState(urls)
@@ -74,15 +72,15 @@ const ImgSlider = () => {
                     {/* Checking to see if it's the first one */}
                     {
                     (currentImage - 1 === -1)
-                    ? <button style={styles.btn} onClick={clickLeft} > <img style={styles.btnImg} src={images[9]} alt={imgAlts[9]} /> <strong style={styles.strong}>{'<'}</strong> </button>
+                    ? <button style={styles.btn} onClick={clickLeft} > <img style={styles.btnImg} src={images[7]} alt={imgAlts[7]} /> <strong style={styles.strong}>{'<'}</strong> </button>
                     : <button style={styles.btn} onClick={clickLeft}> <img style={styles.btnImg} src={images[currentImage - 1]} alt={imgAlts[currentImage - 1]} /> <strong style={styles.strong}>{'<'}</strong> </button>
                     }
 
-                    <p style={styles.count}>{currentImage + 1}/10</p>
+                    <p style={styles.count}>{currentImage + 1}/8</p>
 
                     {/* Checking to see if it's the last one */}
                     {
-                    (currentImage + 1 === 10)
+                    (currentImage + 1 === 8)
                     ? <button style={styles.btn} onClick={clickRight} > <img style={styles.btnImg} src={images[0]} alt={imgAlts[0]} /> <strong style={styles.strong}>{'>'}</strong> </button>
                     : <button style={styles.btn} onClick={clickRight}> <img style={styles.btnImg} src={images[currentImage + 1]} alt={imgAlts[currentImage + 1]} /> <strong style={styles.strong}>{'>'}</strong> </button>
                     }
@@ -108,7 +106,7 @@ const styles = {
         maxWidth: "400px",
         maxHeight: "500px",
         marginTop: "20px",
-        marginRight: "20%"
+        marginRight: "10%"
         // display: "flex",
         // justifyContent: "center",
         // alignItems: "center",

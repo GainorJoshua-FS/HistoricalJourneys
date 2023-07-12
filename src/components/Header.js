@@ -10,9 +10,11 @@ function Header() {
                 window.scroll(0, 0);
             }}
             >
-                <img style={styles.logo} src={Logo} alt="Historical Journeys Compass Rose logo" />
             </Link>
-            <h1 style={styles.h1}>Historical Journeys</h1>
+            <div style={styles.flex}>
+                <h1 style={styles.h1}>Historical Journeys</h1>
+                <img style={styles.logo} src={Logo} alt="Historical Journeys Compass Rose logo" />
+            </div>
             <div className='navLink' style={styles.div}>
                 <Link style={styles.links} to="/"
                 onClick={() => {
@@ -45,6 +47,14 @@ function Header() {
                 >
                     Camping
                 </Link>
+
+                <Link style={styles.links} to="/field-trips"
+                onClick={() => {
+                    window.scroll(0, 0);
+                }}
+                >
+                    Field Trips
+                </Link>
             </div>
         </header>
     )
@@ -72,8 +82,15 @@ const styles = {
         margin: "0px 20%"
     },
     logo:{
-        width: "100px",
-        height: "100px",
-        position: "fixed",
+        width: "60px",
+        height: "60px",
+        // position: "fixed",
     },
+    flex:{
+        display: "flex",
+        alignItems: "center"
+    },
+    h1:{
+        paddingRight: "10px"
+    }
 }
