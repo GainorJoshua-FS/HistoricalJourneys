@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c1f84e5.css",
-    "main.js": "/static/js/main.ca605310.js",
+    "main.js": "/static/js/main.df21fbba.js",
     "static/js/787.b44a37ec.chunk.js": "/static/js/787.b44a37ec.chunk.js",
     "static/media/StockHome9.jpg": "/static/media/StockHome9.436cbdbdcdaa47378bf0.jpg",
     "static/media/StreetScene5.jpg": "/static/media/StreetScene5.783a5b0738c61d1dc19d.jpg",
@@ -12,6 +12,7 @@
     "static/media/Scouts1.png": "/static/media/Scouts1.f4f9a37ca3f9c6c5bca8.png",
     "static/media/Bruce21.JPG": "/static/media/Bruce21.de836a5d386a7598674f.JPG",
     "static/media/Bruce19.JPG": "/static/media/Bruce19.b0c7395b40ce02194082.JPG",
+    "static/media/SchoolGroup2.png": "/static/media/SchoolGroup2.59a28fe5dadab0dcacc1.png",
     "static/media/barn2.jpeg": "/static/media/barn2.a06289c7d1df7001800f.jpeg",
     "static/media/Scouts1P2.png": "/static/media/Scouts1P2.3a895aca3f8fc0eae2e3.png",
     "static/media/Amanda21st.jpg": "/static/media/Amanda21st.b2d97ac935f1dbf98fc0.jpg",
@@ -28,11 +29,11 @@
     "static/media/JacobStockHouse.jpg": "/static/media/JacobStockHouse.6f5aac146c0fe57a1909.jpg",
     "index.html": "/index.html",
     "main.6c1f84e5.css.map": "/static/css/main.6c1f84e5.css.map",
-    "main.ca605310.js.map": "/static/js/main.ca605310.js.map",
+    "main.df21fbba.js.map": "/static/js/main.df21fbba.js.map",
     "787.b44a37ec.chunk.js.map": "/static/js/787.b44a37ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c1f84e5.css",
-    "static/js/main.ca605310.js"
+    "static/js/main.df21fbba.js"
   ]
 }
