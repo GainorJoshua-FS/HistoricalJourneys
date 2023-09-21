@@ -1,7 +1,8 @@
 import React from 'react'
 import Scouts1P2 from '../images/Scouts1P2.png'
 import Scouts2 from '../images/Scouts2.png'
-import family1 from '../images/FamilyTrip1.png'
+import BruceMap from '../images/FamilyTrip1.png'
+import schoolTrip from '../images/SchoolGroup2.png'
 
 function FieldTrips() {
     return (
@@ -9,8 +10,8 @@ function FieldTrips() {
             <h2 style={styles.h2}>Educational Field Trips</h2>
             <img
                 style={styles.imgStyle}
-                src={family1}
-                alt="FAMILY GROUP FIELD TRIP:  May10, 2023"
+                src={schoolTrip}
+                alt="School Field Trip:  September, 2023"
             />
             <img
                 style={styles.imgStyle}
