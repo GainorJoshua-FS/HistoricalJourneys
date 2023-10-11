@@ -37,7 +37,7 @@ function Header() {
                     window.scroll(0, 0);
                 }}
                 >
-                    Details
+                    Tours &amp; Activities
                 </Link>
 
                 <Link style={styles.links} to="/camping"
@@ -54,6 +54,14 @@ function Header() {
                 }}
                 >
                     Field Trips
+                </Link>
+
+                <Link style={styles.links} to="/haunting"
+                onClick={() => {
+                    window.scroll(0, 0);
+                }}
+                >
+                    Historical Hauntings
                 </Link>
             </div>
         </header>

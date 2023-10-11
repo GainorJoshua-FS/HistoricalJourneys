@@ -9,6 +9,7 @@ import Tours from './components/Tours';
 import AlertBanner from './components/AlertBanner';
 import Camping from './components/Camping';
 import FieldTrips from './components/FieldTrips';
+import Hauntings from './components/Hauntings';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route key="tours" path='/tours' element={<Tours/>} />
               <Route key="camping" path='/camping' element={<Camping/>} />
               <Route key="field-trips" path='/field-trips' element={<FieldTrips/>} />
+              <Route key="haunting" path='/haunting' element={<Hauntings/>} />
             </Routes>
         <Footer />
         </HashRouter>
