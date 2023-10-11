@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6c1f84e5.css",
-    "main.js": "/static/js/main.df21fbba.js",
+    "main.js": "/static/js/main.a078e0a1.js",
     "static/js/787.b44a37ec.chunk.js": "/static/js/787.b44a37ec.chunk.js",
     "static/media/StockHome9.jpg": "/static/media/StockHome9.436cbdbdcdaa47378bf0.jpg",
     "static/media/StreetScene5.jpg": "/static/media/StreetScene5.783a5b0738c61d1dc19d.jpg",
@@ -9,6 +9,7 @@
     "static/media/GateHouse3.jpg": "/static/media/GateHouse3.1717b12e4b34c17522ce.jpg",
     "static/media/NewHome4.jpg": "/static/media/NewHome4.75614c0d980e7e6f9d71.jpg",
     "static/media/EagleHotel1.jpg": "/static/media/EagleHotel1.e99091b425aa0e61a9c5.jpg",
+    "static/media/haunt.png": "/static/media/haunt.23af3a7a855fb2d76a47.png",
     "static/media/Scouts1.png": "/static/media/Scouts1.f4f9a37ca3f9c6c5bca8.png",
     "static/media/Bruce21.JPG": "/static/media/Bruce21.de836a5d386a7598674f.JPG",
     "static/media/Bruce19.JPG": "/static/media/Bruce19.b0c7395b40ce02194082.JPG",
@@ -29,11 +30,11 @@
     "static/media/JacobStockHouse.jpg": "/static/media/JacobStockHouse.6f5aac146c0fe57a1909.jpg",
     "index.html": "/index.html",
     "main.6c1f84e5.css.map": "/static/css/main.6c1f84e5.css.map",
-    "main.df21fbba.js.map": "/static/js/main.df21fbba.js.map",
+    "main.a078e0a1.js.map": "/static/js/main.a078e0a1.js.map",
     "787.b44a37ec.chunk.js.map": "/static/js/787.b44a37ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c1f84e5.css",
-    "static/js/main.df21fbba.js"
+    "static/js/main.a078e0a1.js"
   ]
 }
