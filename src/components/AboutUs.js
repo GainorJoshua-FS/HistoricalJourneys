@@ -13,7 +13,7 @@ function AboutUs() {
         <section>
             <div style={styles.flex}>
             </div>
-            <h2 style={styles.h2}>About Us</h2>
+            <h2 style={styles.h2}>Welcome</h2>
             <SideBySide
                     src1={img1}
                     alt1="Eagle Hotel 1863"

@@ -11,7 +11,7 @@ import img5new from '../images/StreetScene5.jpg'
 function Tours() {
     return (
         <section>
-            <h2>Walking Tours</h2>
+            <h2>Historic Town Walking Tours</h2>
 
             <SideBySide
                 src1={img4}
@@ -21,34 +21,15 @@ function Tours() {
             />
 
             <TourHelper
-                tour="Not the Same Old Town Tour"
-                time="90-minute tour: "
-                desc="Civilian stories of compassion, love, and humor during and after the battle. Stories as: little Charles asks for his candy back, the “safest place” in town, polite and courteous rebels, her “Sweetheart” is found, and more eye-witness stories."
+                tour="Stories of the Townspeople from the Past"
+                time="30 minute tour: "
+                desc="Ride through the streets of Historic Downtown Gettysburg. Hear stories from the townspeople before, during, and after the battle; enhanced with “old-time” historic photographs."
             />
 
-            <TourHelper
-                tour="No Man's Land Tour"
-                time="90-minute tour: "
-                desc="Why was this area in Gettysburg called No Man's Land? Where was No Man's Land? What significance was the area to the battle and who lived in that part of town?"
-            />
-
-            <TourHelper
-                tour="If the Walls Could Talk Tour"
-                time="120-minute tour: "
-                desc="Hear true stories of the eye-witness accounts of the civilians and their struggles. As we walk the streets and the “Square,” listen carefully as the walls of the historic buildings on the tour “talk to us!"
-            />
-
-            <TourHelper
-                tour="Rebels have Arrived Tour"
-                time="120-minute tour: "
-                desc="Gettysburg civilians from 1863 quotes, “There they were in flesh in blood!” Experience what the arrival of the Confederate army through the civilian perspective."
-            />
-
-
-{/* --------------------------------------------------------------------------------------------------- */}
+{/* =============================================================================== */}
 
             <article>
-                <h2>Private Tour Pricings</h2>
+                <h3 style={styles.h3}>Historic Town Tours Pricings</h3>
                 <SideBySide
                     src1={img5}
                     alt1="Gettysburg South Baltimore St Images 1863"
@@ -56,25 +37,30 @@ function Tours() {
                     alt2="Gettysburg South Baltimore St Images 2023"
                 />
                 <dl>
-                    <dt><strong>Adults</strong></dt>
-                    <dd>$20</dd>
+                    <dt><strong>12+</strong></dt>
+                    <dd>$25</dd>
 
-                    <dt><strong>Children (6-17)</strong></dt>
-                    <dd>$13</dd>
-
-                    <dt><strong>Children (5 & younger)</strong></dt>
-                    <dd>FREE</dd>
+                    <dt><strong>Children 11 and under</strong></dt>
+                    <dd>Free</dd>
                 </dl>
             </article>
+            <article style={styles.lastArticle}>
+                <h3 style={styles.h3}>Reservations</h3>
+                <p>
+                    <strong>Bruce: </strong>920-639-7505
+                    <br />
+                    <strong>Amanda: </strong>717-880-9589
+                </p>
+            </article>
 
-{/* --------------------------------------------------------------------------------------------------- */}
+{/* =============================================================================== */}
 
-            <h2>Carriage Tours</h2>
+            <h2>Historic Town Carriage Tours</h2>
 
             <TourHelper
                 tour="Stories of the Townspeople from the Past"
-                time="30 minute tour: "
-                desc="Ride through the streets of Historic Downtown Gettysburg. Hear stories from the townspeople before, during, and after the battle; enhanced with “old-time” historic photographs."
+                time="90 minute tour: "
+                desc="A leisurely walk through the historic town of Gettysburg. You’ll hear what life was like in Gettysburg before the battle. In addition, what the towns people endured and the compassion they shared to the soldiers as well as their neighbors."
             />
 
             <article>
@@ -103,35 +89,48 @@ function Tours() {
                 </p>
             </article>
 
-{/* --------------------------------------------------------------------------------------------------- */}
 
-            <h2>Historic Town Tours</h2>
-
-            <TourHelper
-                tour="Stories of the Townspeople from the Past"
-                time="90 minute tour: "
-                desc="A leisurely walk through the historic town of Gettysburg. You’ll hear what life was like in Gettysburg before the battle. In addition, what the towns people endured and the compassion they shared to the soldiers as well as their neighbors."
+{/* =============================================================================== */}
+            {/* <TourHelper
+                tour="Not the Same Old Town Tour"
+                time="90-minute tour: "
+                desc="Civilian stories of compassion, love, and humor during and after the battle. Stories as: little Charles asks for his candy back, the “safest place” in town, polite and courteous rebels, her “Sweetheart” is found, and more eye-witness stories."
             />
 
-            <article>
-                <h3 style={styles.h3}>Historic Town Tours Pricings</h3>
+            <TourHelper
+                tour="No Man's Land Tour"
+                time="90-minute tour: "
+                desc="Why was this area in Gettysburg called No Man's Land? Where was No Man's Land? What significance was the area to the battle and who lived in that part of town?"
+            />
 
+            <TourHelper
+                tour="If the Walls Could Talk Tour"
+                time="120-minute tour: "
+                desc="Hear true stories of the eye-witness accounts of the civilians and their struggles. As we walk the streets and the “Square,” listen carefully as the walls of the historic buildings on the tour “talk to us!"
+            />
+
+            <TourHelper
+                tour="Rebels have Arrived Tour"
+                time="120-minute tour: "
+                desc="Gettysburg civilians from 1863 quotes, “There they were in flesh in blood!” Experience what the arrival of the Confederate army through the civilian perspective."
+            /> */}
+
+
+{/* --------------------------------------------------------------------------------------------------- */}
+
+            {/* <article>
+                <h2>Private Tour Pricings</h2>
                 <dl>
-                    <dt><strong>12+</strong></dt>
-                    <dd>$25</dd>
+                    <dt><strong>Adults</strong></dt>
+                    <dd>$20</dd>
 
-                    <dt><strong>Children 11 and under</strong></dt>
-                    <dd>Free</dd>
+                    <dt><strong>Children (6-17)</strong></dt>
+                    <dd>$13</dd>
+
+                    <dt><strong>Children (5 & younger)</strong></dt>
+                    <dd>FREE</dd>
                 </dl>
-            </article>
-            <article style={styles.lastArticle}>
-                <h3 style={styles.h3}>Reservations</h3>
-                <p>
-                    <strong>Bruce: </strong>920-639-7505
-                    <br />
-                    <strong>Amanda: </strong>717-880-9589
-                </p>
-            </article>
+            </article> */}
 
 {/* --------------------------------------------------------------------------------------------------- */}
 
