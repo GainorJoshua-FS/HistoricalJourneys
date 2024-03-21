@@ -1,5 +1,5 @@
 import React from 'react'
-import haunt from '../images/haunt.png'
+// import haunt from '../images/haunt.png'
 import SideBySide from '../helpers/SideBySide';
 
 import cashtown from '../images/cashtown.jpeg'
@@ -33,7 +33,7 @@ function Hauntings() {
                     Available on select evenings throughout the year. To check for specific dates, please visit our booking calendar.
                 </p>
 
-                <a href="https://www.calendly.com/historicaljourneys" target="_blank">
+                <a href="https://www.calendly.com/historicaljourneys" target="_blank" rel="noreferrer">
                     <button style={styles.button}>
                         Check Availability
                     </button>
@@ -72,7 +72,7 @@ function Hauntings() {
                     <br/> 
                     To reserve your spot today, please visit our booking calendar.
                 </p>
-                <a href="https://www.calendly.com/historicaljourneys" target="_blank">
+                <a href="https://www.calendly.com/historicaljourneys" target="_blank" rel="noreferrer">
                     <button style={styles.button2}>
                         Reserve My Spot
                     </button>
