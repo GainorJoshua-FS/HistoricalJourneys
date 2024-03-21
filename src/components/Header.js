@@ -40,13 +40,13 @@ function Header() {
                     Tours &amp; Activities
                 </Link>
 
-                <Link style={styles.links} to="/camping"
+                {/* <Link style={styles.links} to="/camping"
                 onClick={() => {
                     window.scroll(0, 0);
                 }}
                 >
                     Camping
-                </Link>
+                </Link> */}
 
                 <Link style={styles.links} to="/field-trips"
                 onClick={() => {
