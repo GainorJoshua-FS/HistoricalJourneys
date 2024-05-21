@@ -32,7 +32,7 @@ function FieldTrips() {
                 to customize your field day trip, pricing and other details.
                 <br />
                 <br />
-                <strong>Contact:</strong> Amanda Collins at (717)880-9589.
+                <strong>Contact:</strong> Bruce Kottke at (920)-639-7505.
             </p>
         </article>
     );
