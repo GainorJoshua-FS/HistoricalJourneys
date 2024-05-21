@@ -49,13 +49,12 @@ function Tours() {
                 <p>
                     <strong>Bruce: </strong>920-639-7505
                     <br />
-                    <strong>Amanda: </strong>717-880-9589
                 </p>
             </article>
 
 {/* =============================================================================== */}
 
-            <h2>Historic Town Carriage Tours</h2>
+            {/* <h2>Historic Town Carriage Tours</h2>
 
             <TourHelper
                 tour="Stories of the Townspeople from the Past"
@@ -87,7 +86,7 @@ function Tours() {
                     <br />
                     <strong>Location: </strong>South Baltimore Street, across from Mr. G’s Ice-cream Shoppe
                 </p>
-            </article>
+            </article> */}
 
 
 {/* =============================================================================== */}
