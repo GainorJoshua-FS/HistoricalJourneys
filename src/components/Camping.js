@@ -1,5 +1,4 @@
 import React from 'react'
-import Scouts1 from '../images/Scouts1.png'
 import Barn1 from '../images/barn1.jpeg'
 import Barn2 from '../images/barn2.jpeg'
 import Field1 from '../images/field1.jpeg'
@@ -38,8 +37,7 @@ function Camping() {
                 Proof of your liability insurance must be submitted before arriving.
                 <br />
                 <br />
-                <strong>Reservations:</strong> Can be made by contacting Amanda
-                Collins at (717)880-9589
+                <strong>Reservations:</strong> Can be made by contacting Bruce Kottke at (920)-639-7505
                 <br />
                 <br />
                 Camping guests receive a discount on all tours and programs available
